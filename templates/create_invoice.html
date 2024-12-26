@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Invoice</title>
+</head>
+<body>
+    <h1>Create a New Invoice</h1>
+    <form method="POST">
+        <label for="invoice_number">Invoice Number:</label><br>
+        <input type="text" id="invoice_number" name="invoice_number" required><br><br>
+
+        <label for="date">Date:</label><br>
+        <input type="text" id="date" name="date" required><br><br>
+
+        <label for="amount">Amount:</label><br>
+        <input type="number" id="amount" name="amount" required><br><br>
+
+        <label for="vendor_name">Vendor Name:</label><br>
+        <input type="text" id="vendor_name" name="vendor_name" required><br><br>
+
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
